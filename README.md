@@ -7,9 +7,13 @@ then connect to RDP
 then create `rdpALWAYS.bat` and add this data inside it 
 _____
 @echo off
+
 :loop
+
 ping ats-publications.com -n 1
+
 timeout /t 5 >nul
+
 goto loop
 _____
 
